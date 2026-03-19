@@ -139,6 +139,31 @@
         border: 1px solid #f3d6e6;
       }
 
+      /* ADDED BUTTON STYLES */
+      .project-links {
+        display: flex;
+        gap: 14px;
+        justify-content: center;
+        flex-wrap: wrap;
+        margin-top: 26px;
+      }
+
+      .project-button {
+        display: inline-block;
+        text-decoration: none;
+        color: #d14f9c;
+        border: 1px solid #d14f9c;
+        padding: 11px 18px;
+        border-radius: 999px;
+        font-size: 0.95em;
+        transition: all 0.2s ease;
+      }
+
+      .project-button:hover {
+        background-color: #d14f9c;
+        color: white;
+      }
+
       .section {
         margin-top: 85px;
       }
@@ -293,20 +318,20 @@
     <div class="container">
       <nav>
         <ul>
-          <li><a href="home.html">Home</a></li>
+          <li><a href="https://sstruffi.github.io/home.html/">Home</a></li>
 
           <li class="dropdown">
-            <a href="work.index">Projects</a>
+            <a href="#">Projects</a>
             <ul class="dropdown-content">
-              <li><a href="videography.html">Videography</a></li>
-              <li><a href="branding.html">Branding</a></li>
-              <li><a href="web-app.html">Web and App</a></li>
-              <li><a href="graphic-design.html">Graphic Design</a></li>
+              <li><a href="https://sstruffi.github.io/Videography/">Videography</a></li>
+              <li><a href="https://sstruffi.github.io/Branding/">Branding</a></li>
+              <li><a href="https://sstruffi.github.io/web-app/">Web and App</a></li>
+              <li><a href="https://sstruffi.github.io/graphic-design/">Graphic Design</a></li>
             </ul>
           </li>
 
-          <li><a href="aboutme.html">About Me</a></li>
-          <li><a href="contactme.html">Contact Me</a></li>
+          <li><a href="https://sstruffi.github.io/aboutme.html/">About Me</a></li>
+          <li><a href="https://sstruffi.github.io/contactme.html/">Contact Me</a></li>
         </ul>
       </nav>
     </div>
@@ -325,6 +350,11 @@
           <span>High-Fidelity Prototype</span>
           <span>Usability Testing</span>
           <span>Student Finance</span>
+        </div>
+
+        <!-- ADDED BUTTON -->
+        <div class="project-links">
+          <a href="https://sstruffi.github.io/web-app/" class="project-button">Back to Web and App</a>
         </div>
 
         <img src="low-highfi.jpeg" alt="Budget Bunny prototype overview" class="hero-image">
